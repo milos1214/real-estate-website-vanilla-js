@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <section class="navbar">
+        <div class="logo">
+            <img src="assets/Logo.svg" alt="Logo of Real Estate">
+        </div>
+        <button class="hamburger" aria-label="Toggle menu">
+            &#9776;
+        </button>
+        <div class="links">
+            <a href="index.html" class="nav-active">HOME</a>
+            <a href="#work">APPARMENTS</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#about">ABOUT US</a>
+            <a href="#contact">CONTACT US</a>
+        </div>
+    </section>
+
+    <section class="hero-section">
+        <div class="carousel">
+            <div class="carousel-images">
+                <div class="carousel-slide active">
+                    <img src="assets/Carousal.jpg" alt="Carousel Image 1">
+                    <div class="overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/Carousal2.jpg" alt="Carousel Image 2">
+                    <div class="overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/Carousal3.jpg" alt="Carousel Image 3">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </div>
+        <h1>FIND YOUR DREAM <br>PLACE</h1>
+    </section>
+    <section class="about-us" id="about">
+        <h2 class="about-us-text">ABOUT <span>US</span></h2>
+        <p class="aboutP">We are dedicated to helping you find the perfect place to call home. With years of experience
+            in the real estate market, we specialize in buying, selling, and renting residential and commercial
+            properties. Our team of expert agents is committed to providing personalized service, guiding you through
+            every step of the process with transparency and professionalism. Whether you're a first-time homebuyer,
+            seasoned investor, or looking for your next rental, we work tirelessly to ensure your real estate goals are
+            met. Let us make your property dreams a <br>reality with local expertise and unmatched dedication.</p>
+        <div class="grid">
+            <img src="assets/1.jpg" alt="">
+            <img src="assets/2.jpg" alt="">
+            <img src="assets/2.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="services-section">
+        <h2><span>Services We</span> Provide</h2>
+        <p>Features which will build your trust back on <br>Public Transport</p>
+        <div class="grid grid-services">
+            <div class="service-card">
+                <img src="assets/service1.svg" alt="" class="service-img">
+                <h4>Reasonable Apartments</h4>
+                <p class="small-p">Quisque suscipit ipsum est, eu venenatis leo ornare eget. Ut porta facilisis
+                    elementum. Sed massa quis ullamcorper. Donec neque sagittis, mas sodales </p>
+            </div>
+
+            <div class="service-card">
+                <img src="assets/service2.svg" alt="" class="service-img">
+                <h4>Homes And Farm Houses</h4>
+                <p class="small-p">Quisque suscipit ipsum est, eu venenatis leo ornare eget. Ut porta facilisis
+                    elementum. Sed massa quis ullamcorper. Donec neque sagittis, mas sodales </p>
+            </div>
+
+            <div class="service-card">
+                <img src="assets/service3.svg" alt="" class="service-img">
+                <h4>Market And Business Centre</h4>
+                <p class="small-p">Quisque suscipit ipsum est, eu venenatis leo ornare eget. Ut porta facilisis
+                    elementum. Sed massa quis ullamcorper. Donec neque sagittis, mas sodales </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+        <h2 class="h2-g">GALLERY</h2>
+        <div class="gallery-grid">
+            <div class="gg1 ggimg"><img src="assets/gg1.jpg" alt=""></div>
+            <div class="gg2 ggimg"><img src="assets/gg2.jpg" alt=""></div>
+            <div class="gg3 ggimg"><img src="assets/gg3.jpg" alt=""></div>
+            <div class="gg4 ggimg"><img src="assets/gg4.jpg" alt=""></div>
+            <div class="gg5 ggimg"><img src="assets/gg5.jpg" alt=""></div>
+            <div class="gg6 ggimg"><img src="assets/gg6.jpg" alt=""></div>
+            <div class="gg7 ggimg"><img src="assets/gg7.jpg" alt=""></div>
+        </div>
+    </section>
+
+    <section class="work-section" id="work">
+        <div class="work-head">
+            <h3>From <br>our <span>Work</span></h3>
+            <a href="" class="view">View all.</a>
+        </div>
+        <div class="cards4">
+            <div class="work-card">
+                <div class="center">
+                    <img src="assets/work1.jpg" alt="" class="workpic">
+                </div>
+                <p class="workP">What's coming up in
+                    Dubai this December.</p>
+                <a href="" class="workA">Read more.</a>
+            </div>
+
+            <div class="work-card">
+                <div class="center">
+                    <img src="assets/work2.jpg" alt="" class="workpic">
+                </div>
+                <p class="workP">Feeling Hungry? The
+                    best restaurants in
+                    Dubai.</p>
+                <a href="" class="workA">Read more.</a>
+            </div>
+
+            <div class="work-card">
+                <div class="center">
+                    <img src="assets/work3.jpg" alt="" class="workpic">
+                </div>
+                <p class="workP">Property management
+                    during pandemic.</p>
+                <a href="" class="workA">Read more.</a>
+            </div>
+
+            <div class="work-card">
+                <div class="center">
+                    <img src="assets/work4.jpg" alt="" class="workpic">
+                </div>
+                <p class="workP">Sarmaya market
+                    Report 2020.</p>
+                <a href="" class="workA">Read more.</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="members-section">
+        <h3 class="membersh3">Team-Board Members</h3>
+        <div class="cards4">
+            <div class="work-card member-card">
+                <div class="center">
+                    <img src="assets/Members.jpg" alt="" class="workpic member-pic">
+                </div>
+                <p class="workp1 memberp">HADEED ULLAH</p>
+                <p class="workp2 memberp">Creative Designer</p>
+                <p class="workp3 memberp2">lorem ipsum dolor sit amet, consectetur adipiscing elit. ut elit .</p>
+            </div>
+
+            <div class="work-card member-card">
+                <div class="center">
+                    <img src="assets/Members.jpg" alt="" class="workpic member-pic">
+                </div>
+                <p class="workp1 memberp">HADEED ULLAH</p>
+                <p class="workp2 memberp">Creative Designer</p>
+                <p class="workp3 memberp2">lorem ipsum dolor sit amet, consectetur adipiscing elit. ut elit .</p>
+            </div>
+
+            <div class="work-card member-card">
+                <div class="center">
+                    <img src="assets/Members.jpg" alt="" class="workpic member-pic">
+                </div>
+                <p class="workp1 memberp">HADEED ULLAH</p>
+                <p class="workp2 memberp">Creative Designer</p>
+                <p class="workp3 memberp2">lorem ipsum dolor sit amet, consectetur adipiscing elit. ut elit .</p>
+            </div>
+
+            <div class="work-card member-card">
+                <div class="center">
+                    <img src="assets/Members.jpg" alt="" class="workpic member-pic">
+                </div>
+                <p class="workp1 memberp">HADEED ULLAH</p>
+                <p class="workp2 memberp">Creative Designer</p>
+                <p class="workp3 memberp2">lorem ipsum dolor sit amet, consectetur adipiscing elit. ut elit .</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="join-section" id="contact">
+        <div class="left">
+            <img src="assets/mailbox.svg" alt="">
+        </div>
+        <div class="right">
+            <h2 class="h2join"><span>Ready</span> To Join</h2>
+            <p class="pjoin">Subscribe for latest updates about Aam Sawari</p>
+
+            <form class="form">
+                <input type="email" id="email" class="email" name="email" placeholder="Enter Email">
+                <input type="button" id="subscribe" class="subscribe" value="Subscribe">
+            </form>
+
+        </div>
+    </section>
+
+    <section class="social-section">
+        <h3 class="h3social">SOCIAL MEDIA FEEDS</h3>
+        <div class="grid">
+            <img src="assets/social1.jpg" alt="">
+            <img src="assets/social2.jpg" alt="">
+            <img src="assets/social3.jpg" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="span2">
+                <h5>ABOUT <span>REAL ESTATE</span></h5>
+                <p class="footerP">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum aliquet
+                    accumsan porta lectus
+                    ridiculus in mattis. Netus sodales in volutpat ullamcorper amet adipiscing fermentum.</p>
+                <div class="social-media">
+
+                    <a href=""><img src="assets/SM3.svg" alt="" class="smimg"></a>
+                    <a href=""><img src="assets/SM4.svg" alt="" class="smimg"></a>
+
+                </div>
+            </div>
+            <div class="empty"></div>
+
+            <div>
+                <h6>COMPANY</h6>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Works</a></li>
+                    <li><a href="">Career</a></li>
+                </ul>
+            </div>
+            <div>
+                <h6>HELP</h6>
+                <ul>
+                    <li><a href="">Customer Support</a></li>
+                    <li><a href="">Delivery Details</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h6>RESOURCES</h6>
+                <ul>
+                    <li><a href="">Free eBooks</a></li>
+                    <li><a href="">Development Tutorial</a></li>
+                    <li><a href="">How to - Blog</a></li>
+                    <li><a href="">Youtube Playlist</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
