@@ -10,7 +10,7 @@ A professional and visually appealing landing page for real estate services. Thi
 
 <br>
 
-<img src="./md images/Hero.png" alt="Hero Section" style="width: 50%; height: auto;">
+<img src="./md images/Hero.png" alt="Hero Section">
 
 ### 2. **About Us**
    - A section to describe the business, its vision, and core values.
@@ -18,14 +18,14 @@ A professional and visually appealing landing page for real estate services. Thi
 
 <br>
 
-<img src="./md images/About Us.png" alt="About Us Section" style="width: 50%; height: auto;">
+<img src="./md images/About Us.png" alt="About Us Section">
 
 ### 3. **Services We Provide**
    - Icons and descriptions for the services that company provides
 
 <br>
 
-<img src="./md images/Services.png" alt="Services Section" style="width: 50%; height: auto;">
+<img src="./md images/Services.png" alt="Services Section">
 
 ### 4. **Gallery**
    - A visually rich gallery showcasing real estate properties, including:
@@ -35,35 +35,35 @@ A professional and visually appealing landing page for real estate services. Thi
 
 <br>
 
-<img src="./md images/Gallery.png" alt="Gallery Section" style="width: 50%; height: auto;">
+<img src="./md images/Gallery.png" alt="Gallery Section">
 
 ### 5. **From Our Work**
    - A section highlighting case studies or recent projects, with "Read More" links for detailed information.
 
 <br>
 
-<img src="./md images/Our work.png" alt="Our Work Section" style="width: 50%; height: auto;">
+<img src="./md images/Our work.png" alt="Our Work Section">
 
 ### 6. **Team-Board Members**
    - Profiles of key team members, complete with images and designations.
 
 <br>
 
-<img src="./md images/Members.png" alt="Members Section" style="width: 50%; height: auto;">
+<img src="./md images/Members.png" alt="Members Section">
 
 ### 7. **Subscription**
    - A call-to-action for visitors to subscribe to newsletters or updates about the real estate market.
 
 <br>
 
-<img src="./md images/CTA.png" alt="Call To Action Section" style="width: 50%; height: auto;">
+<img src="./md images/CTA.png" alt="Call To Action Section">
 
 ### 8. **Social Media Feeds**
    - Live feeds or images from social media platforms for user engagement.
 
 <br>
 
-<img src="./md images/SM.png" alt="Social Media Section" style="width: 50%; height: auto;">
+<img src="./md images/SM.png" alt="Social Media Section">
 
 ### 9. **Footer**
    - Sections for:
@@ -74,7 +74,7 @@ A professional and visually appealing landing page for real estate services. Thi
 
 <br>
 
-<img src="./md images/Footer.png" alt="Footer Section" style="width: 50%; height: auto;">
+<img src="./md images/Footer.png" alt="Footer Section">
 
 ## 💻 Code Functionality
 
@@ -168,7 +168,7 @@ This landing page is fully responsive and designed for optimal performance on de
 - Media Queries and custom styles for breakpoints.
 
 ### Desktop Design
-<img src="./md images/Desktop.png" alt="Desktop Design" style="width: 50%; height: 50%;">
+<img src="./md images/Desktop.png" alt="Desktop Design">
 
 <br>
 
@@ -186,7 +186,7 @@ The page is optimized for search engines with these strategies:
 
 ### SEO Score
 
-<img src="./md images/real estate SEO.png" alt="Website SEO Score" style="width: 30%; height: 50%;">
+<img src="./md images/real estate SEO.png" alt="Website SEO Score" style="width: 75%; height: 50%;">
 
 ## 🚀 How to Use
 
@@ -208,4 +208,4 @@ cd real-estate-website-vanilla-js
 For questions or support, feel free to reach out:
 
 - Email: milosstankovic2002@gmail.com
-- LinkedIn: [LinkedIn Profile](www.linkedin.com/in/milos-stankovic25)
+- [Connect with me on LinkedIn](https://www.linkedin.com/in/milo%C5%A1-stankovi%C4%87-6b3865186/)
